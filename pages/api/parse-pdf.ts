@@ -25,10 +25,3 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
     console.error(error);
   }
 };
-// This API should be placed in your pages/api directory as parse-pdf.ts. It receives the base64 encoded PDF file, converts it into a Blob, and uses the CustomPDFLoader to extract the text from the PDF. The extracted text is then returned in the response.
-
-
-
-
-
-
